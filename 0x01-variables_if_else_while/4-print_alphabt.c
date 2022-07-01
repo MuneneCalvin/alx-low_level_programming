@@ -1,24 +1,24 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main - Entry point
- * Description: prints lowercase alphabets
- * Return: Always 0 (success)
- */
+ *  * main - Entry point
+ *   * Description: prints lowercase alphabets
+ *    * Return: Always 0 (success)
+ *     */
 int main(void)
 {
-  int ch;
+	int ch;
 
-  for (ch = 'a'; ch <= 'z'; ch++)
-    {
-      if (ch != 'e' && ch != 'q')
+	for (ch = 'a'; ch <= 'Z'; ch++)
 	{
-	  putchar(ch);
+		if (ch != 'e' && ch != 'q')
+		{
+			putchar(ch);
+		}
+		else
+		{
+		}
 	}
-      else
-	{
-	}
-    }
-  putchar('\n');
-  return (0);
+	putchar('\n');
+	return (0);
 }
