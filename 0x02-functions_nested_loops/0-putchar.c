@@ -9,5 +9,5 @@
  */
 int _putchar(char c)
 {
-README.md return (write(1, &c, 1));
+	return (write(1, &c, 1));
 }
